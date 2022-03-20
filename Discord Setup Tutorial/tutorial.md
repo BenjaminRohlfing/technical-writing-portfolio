@@ -19,30 +19,50 @@
 
 ## Introduction <a name="introduction"></a>
 
-If you're a game master (GM) and you're running tableop roleplaying games (TTRPGs) virtually, you need a Discord server.
-Discord is the most popular tool in the TTRPG space for hosting a gaming community, or even a fanbase. Though some of its
-essential features can be found on virtual tabletops (VTTs), such as Roll20, both Discord's UI and the quality of its services
-are superior to what is offered by available VTTs. It's also much more convenient for your community to interact through Discord
+If you're a game master (GM) and you're running tabletop roleplaying games (TTRPGs)
+virtually, you need a Discord server. Discord is the most popular tool in the TTRPG
+space for hosting a gaming community, or even a fanbase. Though some of its essential
+features can be found on virtual tabletops (VTTs), such as Roll20, both Discord's
+UI and the quality of its services are superior to what is offered by available
+VTTs. It's also much more convenient for your community to interact through Discord
 than through a VTT, or through other chat-focused apps like Zoom or Teams.
 
-Discord servers are free spaces that provide text, voice, and video chat features. This guide will help you quickly create a well organized, ready to scale, and invite-only server with a music bot that you can use to add atmosphere to your games. By the end, you'll also be familiar with all of the essential features of the app.
+Discord servers are free spaces that provide text, voice, and video chat features.
+This guide will help you quickly create a well organized, ready to scale, and
+invite-only server with a music bot that you can use to add atmosphere to your
+games. By the end, you'll also be familiar with all of the essential features
+of the app.
 
-**Note:** This is a tutorial. It does not discuss the features of Discord in depth. However, it does touch on a few gotchas so you won't be caught off guard in the middle of a game.
+**Note:** This is a tutorial. It does not discuss the features of Discord in depth.
+However, it does touch on a few gotchas so you won't be caught off guard in the
+middle of a game.
 
-First, we'll create your server. Second, we'll create a new text channel specifically for communicating with your music bot and a new voice channel for private chats with players. Then, we'll create some user roles for GMs and Players. Once we have those, we'll configure server-wide and channel-specific permissions for those roles. That will give your server some structure. In the last section, you'll find a recommendation for a dice rolling bot!
+First, we'll create your server. Second, we'll create a new text channel specifically
+for communicating with your music bot and a new voice channel for private chats with
+players. Then, we'll create some user roles for GMs and Players. Once we have those,
+we'll configure server-wide and channel-specific permissions for those roles. That
+will give your server some structure. In the last section, you'll find a recommendation
+for a dice rolling bot!
 
 This will take about 25 minutes. Let's get going!
 
+
 ## Prerequisites <a name="prerequisites"></a>
-You need to have the Discord app installed, and you need to have a Discord account. For assistance with either of those steps, consult Discord's guide to [Getting Started](https://support.discord.com/hc/en-us/articles/360033931551-Getting-Started). That process will only take a few minutes.
+
+You need to have the Discord app installed, and you need to have a Discord account.
+For assistance with either of those steps, consult Discord's guide to [Getting Started](https://support.discord.com/hc/en-us/articles/360033931551-Getting-Started). That process will only take a few minutes.
 
 System requirements can be found [here](https://support.discord.com/hc/en-us/articles/213491697-What-are-the-OS-system-requirements-for-Discord-). (You'll need about 65 MB of available hard drive space.)
 
-If you're configuring a server that you don't own, you'll need the *Manage Server* permission on that server. Otherwise, no experience with Discord beyond installation and account creation is necessary.
+If you're configuring a server that you don't own, you'll need the *Manage Server*
+permission on that server. Otherwise, no experience with Discord beyond installation
+and account creation is necessary.
 
 
 ## 1. Create Your Server <a name="serverCreation"></a>
-Time to create your server! This is where you will be hosting your games. It'll be a bit lonely at first, but soon it will be full of friends! 
+
+Time to create your server! This is where you will be hosting your games. It'll
+be a bit lonely at first, but soon it will be full of friends!
 
 **Follow these steps** to create your server:
 <ol>
@@ -75,7 +95,11 @@ Time to create your server! This is where you will be hosting your games. It'll 
 
 
 ## 2. Create Your Channels <a name="createChannelsSection"></a>
-Now, let's create two new channels for your server. You'll want a dedicated text channel to communicate with your music bot. You'll also want a second voice channel (these also have video chat capalities) so you can pull players aside for private chats during games.
+
+Now, let's create two new channels for your server. You'll want a dedicated text
+channel to communicate with your music bot. You'll also want a second voice channel
+(these also have video chat capabilities) so you can pull players aside for private
+chats during games.
 
 <b>Fig. 2.1</b> shows what you'll see when you're done!
 <p align="center">
@@ -85,6 +109,7 @@ Now, let's create two new channels for your server. You'll want a dedicated text
 </p>
 
 ### 2.1. Creating Channels <a name="createChannels"></a>
+
 **Follow these steps** to create your new channels:
 <ol>
   <li>
@@ -113,10 +138,11 @@ Now, let's create two new channels for your server. You'll want a dedicated text
       <br>
       <b>Fig. 2.1.2 - Create Channel Popup</b>
 </p>
-    
 
 ### 2.2. Renaming Channels <a name="renameChannels"></a>
-Because this is a gaming server, let's rename the <em>general</em> voice channel to better fit that theme.
+
+Because this is a gaming server, let's rename the <em>general</em> voice channel
+to better fit that theme.
 
 **Follow these steps** to rename a channel:
 <ol>
@@ -137,32 +163,40 @@ Because this is a gaming server, let's rename the <em>general</em> voice channel
   <b>Fig. 2.2.1 - Edit Channel Button</b>
 </p>
 
+
 ## 3. Create User Roles and Configure Permissions <a name="createRoles"></a>
-Let's create a role for GMs, and one for players. Then, we'll configure permissions for those roles.
 
-Permissions define what users are allowed to do in your server and its channels. There are server-wide permissions
-and channel-specific permissions. Channel-specific permissions will override server permissions. Users get their permissions
-from the roles they are assigned. A user might have multiple roles with conflicting permissions, but you won't have an
-issue with that for now.
+In this section, you'll create a role for GMs and one for players. After that,
+you'll configure permissions for each role.
 
-Note: a more detailed discussion of permissions can be found [here](https://support.discord.com/hc/en-us/articles/206141927-How-is-the-permission-hierarchy-structured-)
-
-As you begin scaling your community and adding features to your server, you will need more complex roles and permissions. But that's not what this guide is about. 
+As you scale your community and add more features to your server, you'll need
+more complex roles and permissions, but this guide focuses on the basics.
 
 ### 3.1. Managing Roles <a name="roles"></a>
 
-Roles are essential to maintaining a well-organized and stable server.
+Roles are profiles that server admins (you) assign to users. A user may have many
+roles. They are essential to maintaining a well-organized and stable server.
 
 #### 3.1.1. Creating Roles
-Let's create the "GM" role first. Then, repeat the steps below to create a "Player" role.
+
+Let's create the "GM" role first.
 
 **Follow these steps** to create your new roles:
 <ol>
   <li>
-    
+    Navigate to "Server Settings".
   </li>
   <li>
-    
+    Select "Roles" from the side menu.
+  </li>
+  <li>
+    Click "Create Role"
+  </li>
+  <li>
+    Enter the role name and select a color for the role. (The color is a purely aesthetic element of the role.)
+  </li>
+  <li>
+    Skip the "setup permissions" and "add members" steps. We'll do that stuff later.
   </li>
 </ol>
 
@@ -174,22 +208,28 @@ Let's create the "GM" role first. Then, repeat the steps below to create a "Play
   <b>Fig. 3.1.1.1 - Role Creation</b>
 </p>
 
+Repeat the previous steps to create a "Player" role.
+
 #### 3.1.2 Assigning Roles
+
 Now, assign the "GM" role to yourself.
 
-Just right click on a user's name and navigate to the roles options. Dont worry about assigning roles to yourself. As the owner, you have permanent admin privileges which cannot be taken away from you.
+Right click on a user's name and navigate to the roles options.
 
-**Follow these steps** to assign your new roles:
+**Follow these steps** to assign roles:
 <ol>
   <li>
-    
+    Choose a user to assign roles to.
   </li>
   <li>
-    
+    Right click on their name and open the "Roles" menu.
+  </li>
+  <li>
+    Click the checkbox for each role you want to give the user.
   </li>
 </ol>
 
-**Fig.** shows what that process looks like.
+**Fig. 3.1.2.1.** shows the "Roles" menu.
 <p align="center">
   <img src="./images/assign-roles.png" alt="" width="75%">
   <br>
@@ -198,88 +238,21 @@ Just right click on a user's name and navigate to the roles options. Dont worry 
 
 ### 3.2. Configuring Server Permissions <a name="serverPermissions"></a>
 
-We won't go into detail, explaining what each permission does. Basically, players need the ability to navigate through and speak in your social channels. And GMs need the ability to speak over people, mute people, move players around, and even kick or ban players that are causing problems. Just make sure that you configure your GM and Player permissions to look like [this](https://github.com/brohlf/technical-writing-portfolio/blob/main/Discord%20Setup%20Tutorial/Permission%20Configurations/gm-player-configs.md).
+Permissions define what users are allowed to do in your server and its channels.
+There are server-wide permissions and channel-specific permissions. Channel-specific
+permissions will override server permissions if they conflict. Permissions are
+attached to roles.
 
-**Follow these steps** to navigate to the permissions for a particular role:
-<ol>
-  <li>
-    
-  </li>
-  <li>
-    
-  </li>
-</ol>
+For now, you don't need to know what each permission does. Basically, players
+need to view your channels and speak in them. GMs need to speak over or mute
+players, move players around channels, and even kick or ban players.
 
-**Fig.** shows what that process looks like.
-<p align="center">
-  <img src="./images/navigate-permissions.gif" alt="" width="75%">
-  <br>
-  <b>Fig. 3.2.1 - Navigate Permissions</b>
-</p>
+Ensure that your players and GMs can do those things by [copying these GM and player permissions](https://github.com/brohlf/technical-writing-portfolio/blob/main/Discord%20Setup%20Tutorial/Permission%20Configurations/gm-player-configs.md).
 
+Channel permissions override server permissions, but they take effect only in the
+server for which they are configured. You will see a list of permissions, each with
+an "x", a slash, and a check next to them. Here's what they mean:
 
-## 4. Get Your Music Bot <a name="getYourMusicBot"></a>
-
-Groovy bot is one the most popular music bots for Discord. Music support from VTTs is unreliable, so if you want music in your game, you should have a music bot as backup. We will confine Groovy to a single channel so that it won't clutter your chat. You also don't want just anyone controlling it. DMs should have exclusive control over
-the music in their games. So we'll make sure of that too.
-
-### 4.1. Inviting Groovy Bot <a name="invitingGroovy"></a>
-
-**Follow these steps** to navigate to invite Groovy to your server:
-<ol>
-  <li>
-    
-  </li>
-  <li>
-    
-  </li>
-</ol>
-
-Click the following link to download [Groovy Bot](https://groovy.bot/). Click "Add to Discord" to begin the invititation process.
-
-<p align="center">
-  <img src="./images/add-to-discord-button.png" alt="" width="50%">
-  <br>
-  <b>Fig. 4.1.1 - Add To Discord Button</b>
-</p>
-
-This will navigate you to a panel that contains a dropdown menu titled "ADD TO SERVER." Select your server name and click continue. You may also need to login.
-
-At this point, you should see this panel. You need to grant admin privileges so that Groovy can create a role for itself. But, once it's done that, you should revoke admin privileges. Click "Authorize."
-
-<p align="center">
-  <img src="./images/grant-admin-privilages.png" alt="" width="30%">
-  <br>
-  <b>Fig. 4.1.2 - Grant Admin Privilages</b>
-</p>
-
-Now, you should see a new member in your chat! This is groovy bot. 
-
-### 4.2 Configuring Groovy Bot <a name="configuringGroovy"></a>
-
-But it doesn't need those admin privileges anymore. Navigate to your list of server roles in server settings. You should see a new role for Groovy. Navigate to the permissions tabs for the "Groovy" role and configure its permissions to match the [following](https://github.com/brohlf/technical-writing-portfolio/blob/main/Discord%20Setup%20Tutorial/Permission%20Configurations/groovy-configs.md).
-
-Now let's restrict Groovy from seeing anything that happens in the "general" text channel. Navigate to the channel settings by clicking on the gear icon to the right of the channel name. We'll modify Groovy's permissions for this specific channel. You'll have to add the groovy role to the list of roles tracked by this channel. At first, you should only see the "@Everyone" role.
-
-**Follow these steps** to navigate to invite Groovy to your server:
-<ol>
-  <li>
-    
-  </li>
-  <li>
-    
-  </li>
-</ol>
-
-**Fig.** shows what that process looks like.
-<p align="center">
-  <img src="./images/navigate-channel-permissions.gif" alt="" width="75%">
-  <br>
-  <b>Fig. 4.2.1 - Navigate Channel Permissions</b>
-</p>
-
-Channel permissions override server permissions. And they take effect only in the server for which they are configured.
-You will see a list of permissions each with an x, a slash, and a check next to them. Here's what they mean:
 - A: explicitly deny this permission for this channel (override server permission)
 - B: inherit server permission
 - C: explicitly allow this permission for this channel (override server permission)
@@ -289,33 +262,148 @@ You will see a list of permissions each with an x, a slash, and a check next to 
   <b>Fig. 4.2.2 - Channel Permission Explanation</b>
 </p>
 
-Explicitly deny all permissions to Groovy in the general channel.
+**Note:** as the owner of the server, you always have all permissions.
 
-Explictly give players permission to view the channel and to read text history in the Groovy channel.
-
-
-### 4.3 Using Groovy Bot <a name="usingGroovy"></a>
-
-**Follow these steps** get familiar with Groovy's basic commands:
+**Follow these steps** to find the permissions for a particular role:
 <ol>
   <li>
-    
+    Navigate to "Roles" in "Server Settings".
   </li>
   <li>
-    
+    Select the role for which you want to configure permissions.
+  </li>
+  <li>
+    Select the "Permissions" tab, located at the top of the page in the middle.
+  </li>
+  <li>
+    Configure permissions for the role and click save, located at the bottom
+    of the page.
   </li>
 </ol>
 
-[Groovy Commands](https://groovy.bot/commands)
+**Fig. 3.2.1** shows what that process looks like.
+<p align="center">
+  <img src="./images/navigate-permissions.gif" alt="" width="75%">
+  <br>
+  <b>Fig. 3.2.1 - Navigate Permissions</b>
+</p>
+
+A more detailed discussion of permissions can be found [here](https://support.discord.com/hc/en-us/articles/206141927-How-is-the-permission-hierarchy-structured-)
 
 
-when you pause groovy, you need to explicitly unpause it. Using the play command again won't work.
-you'r most frequently used commands will be /play, /pause, /unpause, and /clear
+## 4. Get Your Music Bot <a name="getYourMusicBot"></a>
+
+Music support found on VTTs is inconsistent; so if you want music in your game,
+you should have a music bot as a backup. Music bots work by joining your voice
+or video chats and stream music through audio.
+
+Groovy bot is one of the most popular music bots for Discord.
+
+We will confine Groovy to a single channel so that it won't clutter your player's
+chat. You also might not want players controlling it. DMs should have exclusive
+control over the music in their games. So we'll make sure of that.
+
+### 4.1. Inviting Groovy Bot <a name="invitingGroovy"></a>
+
+Just like users, bots need to be invited to your server.
+
+**Follow these steps** to navigate to invite Groovy to your server:
+
+1. Find Groovy bot.
+
+    Navigate to the home page of [Groovy Bot](https://groovy.bot/), and click
+    "Add to Discord", shown in Fig. 4.1.1.
+
+    <p align="center">
+      <img src="./images/add-to-discord-button.png" alt="" width="50%">
+      <br>
+      <b>Fig. 4.1.1 - Add To Discord Button</b>
+    </p>
+
+    This will navigate you to a panel that contains a dropdown menu titled "ADD TO
+    SERVER." Select your server name and click continue. You may also need to login.
+
+1. Invite Groovy bot.
+
+    At this point, you should see this panel. You need to grant admin privileges so
+    that Groovy can create a role for itself. (But, once it's done that, you should
+    revoke admin privileges.) Click "Authorize."
+
+    <p align="center">
+      <img src="./images/grant-admin-privilages.png" alt="" width="30%">
+      <br>
+      <b>Fig. 4.1.2 - Grant Admin Privileges</b>
+    </p>
+    </li>
+
+
+Now, you should see a new member in your chat! That is groovy bot.
+
+### 4.2 Configuring Groovy Bot <a name="configuringGroovy"></a>
+
+Now that Groovy is in your server, we want to remove its admin privileges and
+create a channel dedicated to it (and also, in the future, to other bots).
+
+**Fig 4.2.1.** shows what that process looks like.
+
+**Follow these steps** to navigate to configure Groovy:
+
+1. Find the Groovy role.
+
+    Navigate to your list of server roles in server settings. You should see a
+    new role for Groovy.
+
+1. Configure server permissions for the "Groovy" role.
+
+    Navigate to the permissions tabs for the "Groovy" role and configure its
+    permissions to match the [following](https://github.com/brohlf/technical-writing-portfolio/blob/main/Discord%20Setup%20Tutorial/Permission%20Configurations/groovy-configs.md).
+
+1. Configure channel permissions for the "Groovy" role.
+
+    Now let's restrict Groovy from seeing anything that happens in the "general"
+    text channel.
+
+    1. Click the "general" channel's gear icon to "Edit Channel".
+
+    1. Add the "Groovy" role to the list of roles tracked by this channel.
+
+        At first, you should only see the "@Everyone" role.
+
+    1. Deny all permissions to "Groovy" channel.
+
+1. Configure "Player" role permissions in the "groovy Channel".
+
+    1. Navigate to the "groovy" "Edit Channel" page.
+
+    1. Give the "Player" role permission to view the channel and to read text
+    history in the Groovy channel.
+
+<p align="center">
+  <img src="./images/navigate-channel-permissions.gif" alt="" width="75%">
+  <br>
+  <b>Fig. 4.2.1 - Navigate Channel Permissions</b>
+</p>
+
+### 4.3 Using Groovy Bot <a name="usingGroovy"></a>
+
+See a complete list of [Groovy Commands](https://groovy.bot/commands).
+
+Most likely, you're most frequently used commands will be "/play", "/pause",
+"/unpause", and "/clear".
+
+**Note:** after you pause the bot, to start the music again, use "/unpause".
+Using "/play" will restart the music from the beginning of the playlist.
 
 
 ## 5. Keep Going! <a name="nextSteps"></a>
-Groovy isn't the only helpful bot! If you aren't using a VTT, but you need a way to roll dice, you can do that right in your server! Invite the "Avrae" bot and create another channel for dice rolling.
 
-As cool as Groovy is, you will eventually want to get some of your real friends into the server. If you need some help with that, follow this short guide to inviting your friends: [inviting friends](https://support.discord.com/hc/en-us/articles/204155938-How-do-I-invite-friends-to-my-server-)
+As cool as Groovy is, you will eventually want to get some of your real friends
+into the server. If you need some help with that, follow this short guide to
+inviting your friends: [inviting friends](https://support.discord.com/hc/en-us/articles/204155938-How-do-I-invite-friends-to-my-server-)
 
-As your community grows, you will need to add more roles, more bots to moderate your users, and more channels.
+Groovy isn't the only helpful bot! If you aren't using a VTT, but you need a way
+to roll dice, you can do that right in your server. Invite the "Avrae" bot and
+create another channel for dice rolling.
+
+As your community grows, you will need to add more roles, more bots to moderate
+your users, and more channels.
