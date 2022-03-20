@@ -2,3 +2,4 @@
 
 Known Issues:
 - Groovy bot is no longer in service. This guide is no longer functional.
+- Substantive and copy editing required.
