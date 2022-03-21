@@ -344,8 +344,6 @@ Now, you should see a new member in your chat! That is groovy bot.
 Now that Groovy is in your server, we want to remove its admin privileges and
 create a channel dedicated to it (and also, in the future, to other bots).
 
-**Fig 4.2.1.** shows what that process looks like.
-
 **Follow these steps** to navigate to configure Groovy:
 
 1. Find the Groovy role.
@@ -377,6 +375,8 @@ create a channel dedicated to it (and also, in the future, to other bots).
 
     1. Give the "Player" role permission to view the channel and to read text
     history in the Groovy channel.
+
+**Fig 4.2.1.** shows what that process looks like.
 
 <p align="center">
   <img src="./images/navigate-channel-permissions.gif" alt="" width="75%">
