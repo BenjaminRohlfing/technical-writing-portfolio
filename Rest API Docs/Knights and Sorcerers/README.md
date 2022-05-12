@@ -3,6 +3,6 @@
 
 Knights and Sorcerers (KAS) is a fictional massively multiplayer online roleplaying game (MMORPG) that I imagined for this example of RESTful API documentation. Imagine that KAS is similar to existing MMORPGs, like World of Warcraft.
 
-To view the API document, click on the file titled **api.md**
+To view the API document, click on the file named **api.md**.
 
 **Note:** The API document contains mock links to other documents. These links lead back to the API document.
