@@ -167,7 +167,7 @@ Path parameters:
 Query string parameters:
 | Parameter   | Description | Data Type   |
 | :---------- | :---------- | :---------- |
-| ```server-id``` | Identifies a set of servers. Returns character objects that have server ids that match the parameter value. Server ids may be provided in a comma-separated list. A server id is four digits.  | Integer |
+| ```server-id``` | Identifies a set of servers. Returns character objects that have server ids that match the parameter value. Server ids may be provided in a comma-separated list. A server id is four digits. | Integer |
 | ```character-name``` | Identifies characters by name. Returns character objects that have names that match the parameter value. Maximum name length is 32 characters. | String |
 
 Example request:
@@ -203,12 +203,12 @@ Example response:
 
 The following table describes each variable contained in a character object.
 
-| Response Item    | Item Description | Data Category | Data Type     |
-| :--------------- | :--------------- | :------------ | :------------ |
-| ```character-id``` | Identifies a specific character object. Each id is unique. No two character objects (on different servers or on the same server) will have the same id. A character id is five digits. | static | Integer |
-| ```server-id``` | Identifies a set of game servers and filters out character objects that aren't on those servers. You may provide one server id or a comma-separated list of server ids. A server id is four digits. | static | Integer |
-| ```character-name``` | Identifies all character objects that possess the given name and filters out any character objects that don't possess that name. Maximum character name length is 32 characters. | static | String |
-| ```class``` | Indicates a character's class. Possible values are "sorcerer" and "knight". A character can only have one class. | static | String |
-| ```level``` | Indicates a character's class level. Minimum value is 1, and the maximum value is 60. | semi-static | Integer |
+| Response Item          | Item Description | Data Category | Data Type     |
+| :--------------------- | :--------------- | :------------ | :------------ |
+| ```character-id```     | Identifies a single character object. Each id is unique. No two character objects can have the same id. A character id is five digits. | static | Integer |
+| ```server-id```        | Identifies a set of servers. Returns character objects that have server ids that match the parameter value. Server ids may be provided in a comma-separated list. A server id is four digits. | static | Integer |
+| ```character-name```   |  Identifies characters by name. Returns character objects that have names that match the parameter value. Maximum name length is 32 characters. | static | String |
+| ```class```            | Indicates a character's class. Possible values are "sorcerer" and "knight". A character can only have one class. | static | String |
+| ```level```            | Indicates a character's class level. Minimum value is "1", and maximum value is "60". | semi-static | Integer |
 | ```character-status``` | Indicates if the character is alive or dead. Possible values are "alive" and "dead". | continuous | String |
-| ```kills``` | Indicates how many other player characters the character has killed in player vs. player combat. | continuous | Integer |
+| ```kills```            | Indicates how many other player characters the character has killed in player vs. player combat. | continuous | Integer |
