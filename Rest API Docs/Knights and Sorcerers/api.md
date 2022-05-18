@@ -162,13 +162,13 @@ GET /listcharacters?character-name=<characterName>
 Path parameters:
 | Parameter   | Description | Data Type   |
 | :---------- | :---------- | :---------- |
-| ```character-id``` | Identifies a specific character object. Each id is unique. No two character objects (on the same server, or on different servers) will have the same id. A character id is five digits. | Integer |
+| ```character-id``` | Identifies a single character object. Each id is unique. No two character objects can have the same id. A character id is five digits. | Integer |
 
 Query string parameters:
 | Parameter   | Description | Data Type   |
 | :---------- | :---------- | :---------- |
-| ```server-id``` | Identifies a set of game servers and filters out character objects that aren't on those servers. You may provide one server id or a comma-separated list of server ids. A server id is four digits.  | Integer |
-| ```character-name``` | Identifies all character objects that possess the given name and filters out any character objects that don't possess the name. Maximum character name length is 32 characters. | String |
+| ```server-id``` | Identifies a set of servers. Returns character objects that have server ids that match the parameter value. Server ids may be provided in a comma-separated list. A server id is four digits.  | Integer |
+| ```character-name``` | Identifies characters by name. Returns character objects that have names that match the parameter value. Maximum name length is 32 characters. | String |
 
 Example request:
 ```
