@@ -16,8 +16,6 @@ The Knights and Sorcerers (KAS) RESTful API offers detailed information about ga
 
 All requests must use the HTTP secure protocol: ```https```
 
-Its endpoints build on the following base url: ``` https://BASEURL```
-
 By using the KAS API, you agree to our [terms of service](#overview).  
 
 ### 1.1. Quickstart Guide <a name="quickstartGuide"></a>
