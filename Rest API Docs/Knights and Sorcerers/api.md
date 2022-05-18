@@ -99,8 +99,8 @@ Path parameters:
 Query string parameters:
 | Parameter   | Description | Data Type   |
 | :---------- | :---------- | :---------- |
-| ```server-name``` | Identifies a server by its name and filters out all servers that do not have the given name. Two servers can only have the same name if they are in different regions. Maximum length for a server name is 32 characters. | String |
-| ```region-code``` | Identifies a geographic location and filters out all servers that are not in the given regions. Region codes may be provided in a comma-separated list. Maximum length for a region code is five characters. | String |
+| ```server-name``` | Identifies servers by name. Returns all servers with names that match the parameter value. Maximum length for a server name is 32 characters. | String |
+| ```region-code``` | Identifies a geographic location. Returns all servers with region codes that match the parameter value. Region codes may be provided in a comma-separated list. Maximum length for a region code is five characters. | String |
 
 Example request:
 ```
@@ -140,13 +140,13 @@ Example response:
 
 The following table describes each variable contained in a server object.
 
-| Response Item    | Item Description | Data Category | Data Type     |
-| :--------------- | :--------------- | :------------ | :------------ |
-| ```server-id```         | Identifies a specific server resource. The first digit indicates the server's region, and the following three digits indicate when that server was created. For example, if a server's first digit is "1", that server is in the USA. "Merlin" was our first server, so its last three digits are "001". So, an ```id``` of "1001" and "2001" identify the USA and EU instances of our first server, respectively. | Static | Integer |
-| ```server-name```       | Identifies a server by its name. Two servers can only have the same name if they are in different regions. Maximum length for a server name is 32 characters. | Static | String |
-| ```region-code```| Identifies a server's geographic location. Maximum length for a region code is five characters. | Static | String |
-| ```server-status```     | Indicates whether a server is "online", "offline", or "resetting". A resetting server is offline but is expected to come back online shortly. | Semi-static | String |
-| ```population``` | Indicates how many active players have characters on this server. An active player is one who has played for at least 10 hours in the past two months. Maximum population per server is 100,000. | Continuous | Integer |
+| Response Item       | Item Description | Data Category | Data Type     |
+| :------------------ | :--------------- | :------------ | :------------ |
+| ```server-id```     | Identifies a single server resource. The first digit indicates the server's region, and the following three digits indicate when that server was created. For example, if a server's first digit is "1", that server is in the USA. "Merlin" was our first server, so its last three digits are "001". An id of "1001" and "2001" identify the USA and EU instances of our first server, respectively. | Static | Integer |
+| ```server-name```   | Identifies a server by its name. Two servers can only have the same name if they are in different regions. Maximum length for a server name is 32 characters. | Static | String |
+| ```region-code```   | Identifies a server's geographic location. Maximum length for a region code is five characters. | Static | String |
+| ```server-status``` | Indicates whether a server is "online", "offline", or "resetting". A resetting server is offline, but is expected to come back online shortly. | Semi-static | String |
+| ```population```    | Indicates how many active players have characters on the server. A single player may have multiple characters, but is only counted once. An active player is one who has played for at least 10 hours in the past two months. Maximum population per server is 100,000. | Continuous | Integer |
 
 ### 3.2. Characters <a name="characterData"></a>
 
