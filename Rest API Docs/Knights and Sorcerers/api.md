@@ -20,7 +20,7 @@ By using the KAS API, you agree to our [terms of service](#overview).
 
 ### 1.1. Quickstart Guide <a name="quickstartGuide"></a>
 
-If you're just getting started, see our [developer quickstart guide](#overview). It will help you get authorized and explain how to make a simple request.
+If you're just getting started, see our [developer quickstart guide](#overview). It will help you get authorized and then explain how to make a simple request.
 
 ### 1.2. Categories of Resource Data <a name="resourceDataCategories"></a>
 
