@@ -67,17 +67,8 @@ All requests to the KAS API must include an API key. If you don't have one, see 
 
 The KAS API supports the following two methods of authentication:
 
-1. Authenticating in the request header.
-  
-  ```
-  curl -H 'Authentication: bearer <your-api-key>' '<baseurl>/<endpoint-path>/'
-  ```
-
-1. Authenticating in the query string.
-
-  ```
-  curl '<baseurl>/<endpoint-path>?api-key=<your-api-key>'
-  ```  
+1. Authenticating in the request header: ``` curl -H 'Authentication: bearer <your-api-key>' '<baseurl>/<endpoint-path>/' ```
+1. Authenticating in the query string: ``` curl '<baseurl>/<endpoint-path>?api-key=<your-api-key>' ```
 
 Although the API supports both methods, **we recommend** attaching your API key to your request header. Doing so is more secure.
 
