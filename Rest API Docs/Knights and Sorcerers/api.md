@@ -12,7 +12,7 @@
 
 ## 1. Overview <a name="overview"></a>
 
-The Knights and Sorcerers (KAS) RESTful API offers detailed information about game servers and player characters. Its endpoints respond in JSON format and use standard HTTP response codes.
+The Knights and Sorcerers (KAS) RESTful API offers detailed information about game servers and player characters. It is offered freely to support the third-party add-ons and applications that our playerbase has come to love. Its endpoints respond in JSON format and use standard HTTP response codes.
 
 All requests must use the HTTP secure protocol: ```https```
 
