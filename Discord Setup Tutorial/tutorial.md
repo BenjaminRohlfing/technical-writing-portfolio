@@ -25,21 +25,18 @@ space for hosting a gaming community, or even a fanbase. Though some of its esse
 features can be found on virtual tabletops (VTTs), such as Roll20, both Discord's
 UI and the quality of its services are superior to what is offered by available
 VTTs. It's also much more convenient for your community to interact through Discord
-than through a VTT, or through other chat-focused apps like Zoom or Teams.
+than through a VTT or other chat-focused apps like Zoom or Teams.
 
 Discord servers are free spaces that provide text, voice, and video chat features.
-This guide will help you quickly create a well organized, ready to scale, and
-invite-only server with a music bot that you can use to add atmosphere to your
-games. By the end, you'll also be familiar with all of the essential features
-of the app.
+This guide will help you quickly create a well organized, ready-to-scale,
+invite-only server that will have a music bot, which you can use to add atmosphere to your
+games. By the end, you'll also be familiar with all of the essential Discord features.
 
-**Note:** This is a tutorial. It does not discuss the features of Discord in depth.
-However, it does touch on a few gotchas so you won't be caught off guard in the
-middle of a game.
+**Note:** This is a quick, practical tutorial. It does not discuss the features of Discord in depth.
+However, it does touch on a few gotchas so you won't be caught off guard in the middle of a game.
 
 First, we'll create your server. Second, we'll create a new text channel specifically
-for communicating with your music bot and a new voice channel for private chats with
-players. Then, we'll create some user roles for GMs and Players. Once we have those,
+for communicating with your music bot. Then, we'll create some user roles for GMs and Players. Once we have those,
 we'll configure server-wide and channel-specific permissions for those roles. That
 will give your server some structure. In the last section, you'll find a recommendation
 for a dice rolling bot!
