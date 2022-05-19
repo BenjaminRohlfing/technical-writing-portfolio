@@ -36,7 +36,7 @@ Examples of static data:
 
 #### 1.2.2. Semi-Static
 
-Semi-static data could change frequently, but it does not change continuously.
+Semi-static data could (but may not) change frequently.
 
 Examples of semi-static data:
 - server status
@@ -44,7 +44,7 @@ Examples of semi-static data:
 
 #### 1.2.3. Continuous
 
-Continuous data changes frequently. It may change between one request and the next.
+Continuous data changes constantly. It may change between one request and the next.
 
 Examples of continuous data:
 - server population
@@ -57,9 +57,9 @@ Region codes identify the geographic region that a server is in. Include region 
 Our servers are deployed in the following three regions:
 | Region                   | Region Code |
 | :----------------------- | :---------- |
-| United States of America | USA         |
-| Europe                   | EU          |
-| China                    | CN          | 
+| North America            | NA          |
+| South America            | SA          |
+| Europe                   | EU          | 
 
 ## 2. Authentication <a name="authentication"></a>
 
@@ -114,7 +114,7 @@ Example response:
     {
       "server-id": 1001,
       "server-name": "Merlin",
-      "region-code": "USA",
+      "region-code": "NA",
       "server-status": "online",
       "population": 97573
     },
@@ -128,7 +128,7 @@ Example response:
     {
       "server-id": 3007,
       "server-name": "Arthur",
-      "region-code": "CN",
+      "region-code": "SA",
       "server-status": "offline",
       "population": 76509
     }
@@ -142,7 +142,7 @@ The following table describes each variable contained in a server object.
 
 | Response Item       | Item Description | Data Category | Data Type     |
 | :------------------ | :--------------- | :------------ | :------------ |
-| ```server-id```     | Identifies a single server resource. The first digit indicates the server's region, and the following three digits indicate when that server was created. For example, if a server's first digit is "1", that server is in the USA. "Merlin" was our first server, so its last three digits are "001". An id of "1001" and "2001" identify the USA and EU instances of our first server, respectively. | Static | Integer |
+| ```server-id```     | Identifies a single server resource. The first digit indicates the server's region, and the following three digits indicate when that server was created. For example, if a server's first digit is "1", that server is in North America. "Merlin" was our first server, so its last three digits are "001". An id of "1001" and "2001" identify the NA and EU instances of our first server, respectively. | Static | Integer |
 | ```server-name```   | Identifies a server by its name. Two servers can only have the same name if they are in different regions. Maximum length for a server name is 32 characters. | Static | String |
 | ```region-code```   | Identifies a server's geographic location. Maximum length for a region code is five characters. | Static | String |
 | ```server-status``` | Indicates whether a server is "online", "offline", or "resetting". A resetting server is offline, but is expected to come back online shortly. | Semi-static | String |
