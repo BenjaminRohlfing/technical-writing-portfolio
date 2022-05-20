@@ -6,4 +6,4 @@ as an opportunity to train my team on both GitHub and Git, which some writers we
 
 These slide decks show the introduction slides of my training decks. They display my ability to create visually and narratively
 engaging, professional-grade presentation material. I have included a presentation deck and a digital handout deck, which
-would be emailed to attendees after the presentation. I created these decks with Canva.
+would be emailed to attendees after the presentation.
