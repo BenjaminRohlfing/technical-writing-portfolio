@@ -1,4 +1,4 @@
-# Git and GitHub Training Deck
+# Git and GitHub Training Decks
 
 When I joined the High Performance Computing writers at Hewlett Packard Enterprise, our documents where hosted on Bitbucket.
 Months later, we migrated to GitHub, which offers the same service but with a different user interface. I recognized this
