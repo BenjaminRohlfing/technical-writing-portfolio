@@ -395,13 +395,11 @@ Using "/play" will restart the music from the beginning of the playlist.
 
 ## 5. Keep Going! <a name="nextSteps"></a>
 
-As cool as Groovy is, you will eventually want to get some of your real friends
-into the server. If you need some help with that, follow this short guide to
-inviting your friends: [inviting friends](https://support.discord.com/hc/en-us/articles/204155938-How-do-I-invite-friends-to-my-server-)
-
-Groovy isn't the only helpful bot! If you aren't using a VTT, but you need a way
+Groovy isn't the only helpful bot! If you aren't using a VTT, and you need a way
 to roll dice, you can do that right in your server. Invite the "Avrae" bot and
 create another channel for dice rolling.
 
-As your community grows, you will need to add more roles, more bots to moderate
-your users, and more channels.
+As cool as Groovy is, you'll eventually want to get some of your real friends
+into the server. If you need some help with that, follow this short guide: [inviting friends](https://support.discord.com/hc/en-us/articles/204155938-How-do-I-invite-friends-to-my-server-)
+
+As your community grows, you'll need to add more roles, more bots, and more channels. Best of luck!
