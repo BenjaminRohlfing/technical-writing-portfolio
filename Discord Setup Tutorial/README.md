@@ -1,4 +1,4 @@
-# Discord Setup Tutorial Article
+# Discord Setup Tutorial
 
 **NOTE:** This portfolio piece is still in development.
 
