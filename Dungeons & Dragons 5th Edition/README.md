@@ -10,4 +10,3 @@ This was the first encounter document that I published. Since publication, it ha
 
 **NOTES:**
 - The document/encounter name, *Shadows Bite*, is not a grammatical error.
-- The phrase "jutting perpendicular" is an intentional, artistic grammatical deviation.
