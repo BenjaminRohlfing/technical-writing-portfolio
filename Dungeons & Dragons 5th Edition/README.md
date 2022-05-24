@@ -7,3 +7,7 @@ an example of my ability to work with beta testers (play testers) and illustrato
 Adobe InDesign.
 
 This was the first encounter document that I published. Since publication, it has sold a handful of copies.
+
+**NOTES:**
+- The document/encounter name, *Shadows Bite*, is not a grammatical error.
+- The phrase "jutting perpendicular" is an intentional, artistic grammatical deviation.
