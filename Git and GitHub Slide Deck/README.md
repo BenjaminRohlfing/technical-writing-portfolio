@@ -1,7 +1,7 @@
 # Git and GitHub Training Decks
 
 When I joined the High Performance Computing writers at Hewlett Packard Enterprise, our documents where hosted on Bitbucket.
-Months later, we migrated to GitHub, which offers the same service but with a different user interface. I recognized this
+Months later, we migrated to GitHub, which offers the essentially same service but with a different user interface. I recognized this
 as an opportunity to train my team on both GitHub and Git, which some writers weren't comfortable using.
 
 These slide decks show the introduction slides of my training decks. They display my ability to create visually and narratively
