@@ -291,26 +291,37 @@ A more detailed discussion of permissions can be found [here](https://support.di
 
 ## 4. Get Your Music Bot <a name="getYourMusicBot"></a>
 
-Music support found on VTTs is inconsistent; so if you want music in your game,
-you should have a music bot as a backup. Music bots work by joining your voice
-or video chats and stream music through audio.
+By the end of this section, you will have a fully functional music bot that you
+can control by entering text commands into a dedicated chat channel.
+
+Music bots are helpful because not every VTT has native support for music. And, even though
+some do, your library and configurations from one won't transer to another. If you
+want music in your game, you should have a Discord bot as backup. They work by
+joining your voice or video chats and stream music through audio.
 
 Groovy bot is one of the most popular music bots for Discord.
 
 We will confine Groovy to a single channel so that it won't clutter your player's
-chat. You also might not want players controlling it. DMs should have exclusive
-control over the music in their games. So we'll make sure of that.
+chat. You also might not want players controlling it. So we'll make that only DMs are
+able to control groovy.
 
 ### 4.1. Inviting Groovy Bot <a name="invitingGroovy"></a>
 
 Just like users, bots need to be invited to your server.
 
-**Follow these steps** to navigate to invite Groovy to your server:
+Follow these steps to invite Groovy to your server:
 
-1. Find Groovy bot.
+1. Find Groovy.
 
-    Navigate to the home page of [Groovy Bot](https://groovy.bot/), and click
-    "Add to Discord", shown in Fig. 4.1.1.
+    Navigate to the homepage of [Groovy Bot](https://groovy.bot/).
+
+    **NOTE:** You don't need an acccount to use the bot.
+
+1. Add Groovy to Discord.
+
+    Click "Add to Discord", shown in Fig. 4.1.1. Then, you should see a panel that contains
+    a dropdown menu titled "ADD TO SERVER." Select your server name and click continue. You
+    may also need to provide your Discord credentials.
 
     <p align="center">
       <img src="./images/add-to-discord-button.png" alt="" width="50%">
@@ -318,14 +329,11 @@ Just like users, bots need to be invited to your server.
       <b>Fig. 4.1.1 - Add To Discord Button</b>
     </p>
 
-    This will navigate you to a panel that contains a dropdown menu titled "ADD TO
-    SERVER." Select your server name and click continue. You may also need to login.
+1. Invite Groovy.
 
-1. Invite Groovy bot.
-
-    At this point, you should see this panel. You need to grant admin privileges so
-    that Groovy can create a role for itself. (But, once it's done that, you should
-    revoke admin privileges.) Click "Authorize."
+    At this point, you should see the panel shown in Fig. 4.1.2. You need to grant admin privileges
+    so Groovy can create a role for itself. (But after it has done that, you should revoke admin
+    privileges.) Next, click "Authorize."
 
     <p align="center">
       <img src="./images/grant-admin-privilages.png" alt="" width="30%">
@@ -335,16 +343,18 @@ Just like users, bots need to be invited to your server.
     </li>
 
 
-Now, you should see a new member in your chat! That is groovy bot.
+Now, you should see a new member in your chat. That's groovy bot!
 
 ### 4.2 Configuring Groovy Bot <a name="configuringGroovy"></a>
 
 Now that Groovy is in your server, we want to remove its admin privileges and
-create a channel dedicated to it (and also, in the future, to other bots).
+create a channel dedicated to it (and also, in the future, to other bots you might add).
 
-**Follow these steps** to navigate to configure Groovy:
+ **Fig 4.2.1.** shows what this procedure looks like.
 
-1. Find the Groovy role.
+Follow these steps to configure Groovy:
+
+1. Find the "Groovy" role.
 
     Navigate to your list of server roles in server settings. You should see a
     new role for Groovy.
@@ -367,20 +377,12 @@ create a channel dedicated to it (and also, in the future, to other bots).
 
     1. Deny all permissions to "Groovy" channel.
 
-1. Configure "Player" role permissions in the "groovy Channel".
+1. Configure the "Player" role permissions in the "groovy" channel.
 
-    1. Navigate to the "groovy" "Edit Channel" page.
+    1. Navigate to the Groovy channel's "Edit Channel" page.
 
     1. Give the "Player" role permission to view the channel and to read text
     history in the Groovy channel.
-
-**Fig 4.2.1.** shows what that process looks like.
-
-<p align="center">
-  <img src="./images/navigate-channel-permissions.gif" alt="" width="75%">
-  <br>
-  <b>Fig. 4.2.1 - Navigate Channel Permissions</b>
-</p>
 
 ### 4.3 Using Groovy Bot <a name="usingGroovy"></a>
 
