@@ -6,5 +6,5 @@ This document was written in markdown and converted to pdf format using Pandoc.
 
 **Career skills** on display:
 
-- my ability to work with development teams
+- my ability to work with subject matter experts
 - my ability to write and edit extensive content for enterprise-scale software products
