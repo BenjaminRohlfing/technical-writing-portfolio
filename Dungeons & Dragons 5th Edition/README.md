@@ -1,9 +1,11 @@
 # D&D 5e Encounter
 
-This document defines the essential narrative and mechanical elements of a Dungeons & Dragons encounter.
-Its purpose is to give game masters a high-quality, low-investment scene to present to their players. It
-displays my ability to design and write compact, scannable, and interesting reference material. It's also
-an example of my ability to work with beta testers (play testers) and illustrators. I created it with
-Adobe InDesign.
+This document defines the essential mechanical and narrative elements of a Dungeons & Dragons encounter. A pre-written encounter is a small-scope framework meant to help GMs facilitate a high-quality play experience with minimal preperation.
 
-This was the first encounter document that I published. Since publication, it has sold a handful of copies.
+Since publication, ths encounter has sold a handful of copies.
+
+Career skills on display:
+
+- my ability to design and write compact, scannable, and interesting reference material
+- my ability to work with beta testers (play testers) and illustrators
+- my ability to work with Adobe InDesign
