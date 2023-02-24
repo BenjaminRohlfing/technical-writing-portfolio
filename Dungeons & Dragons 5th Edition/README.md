@@ -4,7 +4,7 @@ This document defines the essential mechanical and narrative elements of a Dunge
 
 Since publication, ths encounter has sold a handful of copies.
 
-Career skills on display:
+**Career skills** on display:
 
 - my ability to design and write compact, scannable, and interesting reference material
 - my ability to work with beta testers (play testers) and illustrators
