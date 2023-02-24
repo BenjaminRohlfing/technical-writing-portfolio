@@ -2,5 +2,9 @@
 
 **NOTE:** This portfolio piece is still in development.
 
-Originally an assignment for my Editing course at Metropolitan State University, this sample
-displays my ability to navigate and comprehend multiple style guides.
+This analysis document was originally an assignment for my Editing course at Metropolitan State University.
+
+**Career skills** on display:
+
+- my ability to navigate style guides
+- my ability to comprehend and compare multiple style choices
