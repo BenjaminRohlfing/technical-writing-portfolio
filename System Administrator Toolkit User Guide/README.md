@@ -1,8 +1,10 @@
 # Hewlett Packard Enterprise (HPE) Administrator Toolkit User Guide
 
-I assumed editorial responsibility for this document in July, 2021. I collaborate with a talented
-team of software developers to maintain and, when necessary, expand it. It is published on HPE's
-public [Support Center](https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00119704en_us).
+I took editorial responsibility for this (previously existing) document in July, 2021. I collaborated with a skilled team of software developers to maintain and expand it. This version was published on HPE's public [Support Center](https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00119704en_us).
 
-This document was written in markdown and converted to pdf format using Pandoc. It displays my ability
-to work with development teams to write and edit extensive content for enterprise-scale software products.
+This document was written in markdown and converted to pdf format using Pandoc.
+
+**Career skills** on display:
+
+- my ability to work with development teams
+- my ability to write and edit extensive content for enterprise-scale software products
