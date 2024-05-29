@@ -1,9 +1,9 @@
 
 ### Knights and Sorcerers API Reference
 
-**Note:** This document contains mock links to other documents. These links simply lead back to the API document.
+This work sample documents a basic RESTful API for a fictional massively multiplayer online roleplaying game (MMORPG) - Knights and Sorcerers. The game is meant to be similar to existing MMORPGs, like World of Warcraft.
 
-Knights and Sorcerers (KAS) is a fictional massively multiplayer online roleplaying game (MMORPG) that I imagined for this example of RESTful API documentation. It's meant to be similar to existing MMORPGs, like World of Warcraft.
+**Note:** This document contains mock links. These links simply lead back to the API document.
 
 **Career skills** on display:
 
